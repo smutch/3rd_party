@@ -13,4 +13,8 @@ To install a library, simply source the corresponding script.  Note that you may
 source ./install-hdf5.sh
 ```
 
-A `source_me.sh` script is also included to simplify adding these libraries to your `PATH`, `LD_LIBRARY_PATH`, `C_INCLUDE_PATH` etc.  Modify this to suit your needs and then add then source it in your `.bash_profile`/`.zprofile`.
+A `source_me.sh` script is also included to simplify adding these libraries to your `PATH`, `LD_LIBRARY_PATH`, `C_INCLUDE_PATH` etc.  Modify this to suit your needs and then add it to your `.bash_profile`/`.zprofile`:
+
+```bash
+source PATH_TO_SCRIPT/source_me.sh
+```
