@@ -19,3 +19,9 @@ add_lib "$THIRDPARTY/openmpi-2.0.1"
 add_lib "$THIRDPARTY/hdf5-1.8.17"
 add_lib "$THIRDPARTY/fftw-3.3.5"
 add_lib "$THIRDPARTY/gsl-2.2.1"
+
+# GBPcode
+# GBP_SRC=/coepp/cephfs/borg/data/smutch/3rd_party/gbpCode/myLib/mpi
+# export LD_LIBRARY_PATH="${GBP_SRC}:$LD_LIBRARY_PATH"
+# export LIBRARY_PATH="${GBP_SRC}:$LIBRARY_PATH"
+# export C_INCLUDE_PATH="${GBP_SRC}:$C_INCLUDE_PATH"
